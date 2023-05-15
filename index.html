@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>People Count Project</title>
+
+  <!-- Icon -->
+  <link rel="Icon" href="./Logo/Hotpot.png">
+
+  <!-- style -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <h1>Footfall Counter</h1>
+  </header>
+
+  <main>
+    <h1 class="count_number">Count: <span id="countNumber"></span></h1>
+    <h2 class="save_number" id="saveNumber">Save: </h2>
+
+    <div class="btn_container">
+      <button class="btn" id="add-btn" onclick="increment()">Add</button>
+      <button class="btn" id="save-btn" onclick="save()">Save</button>
+    </div>
+    <button class="btn" id="save-btn" onclick="reload()">Reload</button>
+  </main>
+
+  <footer>
+    <p>Copyright © 2023 <a href="https://github.com/TofuWithSoy">TofuWithSoy</a></p>
+    <img src="./Logo/github-142-svgrepo-com.svg" alt="Github Logo">
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
